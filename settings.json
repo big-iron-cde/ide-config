@@ -35,6 +35,9 @@
     "editor.minimap.enabled": true,
   
     // Highlights syntax with semantic info (types, classes, etc.)
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": true,
+
+    // Disables startup pop-up file
+    "workbench.startupEditor": "none"
   }
   
