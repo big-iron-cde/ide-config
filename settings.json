@@ -1,1 +1,40 @@
-#settings for theia
+{
+    // Applies formatting rules to markdown files using a popular linter
+    "[markdown]": {
+      "editor.defaultFormatter": "davidanson.vscode-markdownlint"
+    },
+  
+    // Removes trailing whitespace when saving files (helps clean up code)
+    "files.trimTrailingWhitespace": true,
+  
+    // Sets the color theme of the IDE to a dark theme (easier on the eyes)
+    "workbench.colorTheme": "Default High Contrast",
+  
+    // Enables word wrap so long lines of code/text don't run off-screen
+    "editor.wordWrap": "on",
+  
+    // Shows line numbers next to each line in the editor
+    "editor.lineNumbers": "on",
+  
+    // Uses spaces instead of tabs for indentation (standard in Python)
+    "editor.insertSpaces": true,
+  
+    // Sets indentation size (4 spaces is common in Python)
+    "editor.tabSize": 4,
+  
+    // Highlights indentation levels with colors for better code structure
+    "editor.guides.indentation": true,
+  
+    // Highlights the current line you're editing
+    "editor.renderLineHighlight": "all",
+  
+    // Shows matching brackets and parentheses
+    "editor.matchBrackets": "always",
+  
+    // Enables minimap on the right for quick navigation
+    "editor.minimap.enabled": true,
+  
+    // Highlights syntax with semantic info (types, classes, etc.)
+    "editor.semanticHighlighting.enabled": true
+  }
+  
